@@ -1,9 +1,45 @@
-:root{
-    --custom-color: #FFE7E2;
+:root {
+  --custom-color: #ffe7e2;
 }
 
-.container{
-    background-color: #FFE7E2;
-    width: 100%;
-    height: 500px;
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffe7e2;
+  width: 100vw;
+  box-sizing: border-box;
+  height: 400px;
+  padding: 20px;
+}
+
+.leftFooter {
+  display: flex;
+  flex: 1;
+  background-color: red;
+  margin-right: 30px;
+}
+
+.middleFooter {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 30px;
+}
+
+.rightFooter {
+  display: flex;
+  flex: 1;
+  margin-right: 0;
+}
+
+.map{
+    width: 400px;
+    height: 300px;
+    border: none;
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: -10px;
 }
