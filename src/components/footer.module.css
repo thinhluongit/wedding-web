@@ -1,0 +1,9 @@
+:root{
+    --custom-color: #FFE7E2;
+}
+
+.container{
+    background-color: #FFE7E2;
+    width: 100%;
+    height: 500px;
+}
